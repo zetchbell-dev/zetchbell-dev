@@ -1,37 +1,41 @@
-name: Metrics
-
+name: metrics
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: '0 0 * * *'
   workflow_dispatch:
-
 permissions:
   contents: write
-
 jobs:
-  github-metrics:
+  metrics:
     runs-on: ubuntu-latest
-
     steps:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          user: zetchbell-dev
+          template: classic
 
-          filename: metrics.svg
+          # Keep only the sections that have real data right now
+          base: header, activity, repositories
 
-          base: header, activity, community, repositories, metadata
-
+          # Language breakdown — this one worked fine in your SVG
           plugin_languages: yes
-          plugin_languages_limit: 8
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_categories: markup, programming
+          plugin_languages_limit: 6
+          plugin_languages_threshold: 2%
+          plugin_languages_details: percentage
 
-          plugin_isocalendar: yes
-
+          # Contribution calendar — kept, but limited to 1 year so it
+          # doesn't render 5 extra blank rows for years before you joined
           plugin_calendar: yes
-          plugin_calendar_limit: 6
+          plugin_calendar_limit: 1
 
-          plugin_habits: yes
-          plugin_habits_days: 30
+          # Explicitly OFF — these are the parts throwing "Unexpected error"
+          # or rendering empty/all-zero for a new account
+          plugin_achievements: no
+          plugin_habits: no
+          plugin_stars: no
 
-          plugin_achievements: yes
-
-          plugin_stars: yes
+          config_timezone: Asia/Kolkata
+          config_display: large
