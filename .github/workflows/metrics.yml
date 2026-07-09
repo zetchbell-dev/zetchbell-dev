@@ -26,15 +26,12 @@ jobs:
           plugin_languages_threshold: 2%
           plugin_languages_details: percentage
 
-          # Contribution calendar — kept, but limited to 1 year so it
-          # doesn't render 5 extra blank rows for years before you joined
-          plugin_calendar: yes
-          plugin_calendar_limit: 1
-
-          # Explicitly OFF — these are the parts throwing "Unexpected error"
-          # or rendering empty/all-zero for a new account
+          # Explicitly OFF — the contribution calendar is handled separately
+          # by the 3D-contrib workflow, and these throw "Unexpected error"
+          # or render empty/all-zero for a new account
           plugin_achievements: no
           plugin_habits: no
+          plugin_calendar: no
           plugin_stars: no
 
           config_timezone: Asia/Kolkata
