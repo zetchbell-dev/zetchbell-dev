@@ -1,24 +1,27 @@
-name: metrics
+name: profile
+
 on:
   schedule:
     - cron: '0 0 * * *'
   workflow_dispatch:
+
 permissions:
   contents: write
+
 jobs:
-  metrics:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@latest
+      # --- Stats card: header, activity, repos, languages ---
+      - name: Generate metrics card
+        uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: zetchbell-dev
           template: classic
 
-          # Keep only the sections that have real data right now
           base: header, activity, repositories
 
-          # Language breakdown — this one worked fine in your SVG
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_categories: markup, programming
@@ -26,9 +29,8 @@ jobs:
           plugin_languages_threshold: 2%
           plugin_languages_details: percentage
 
-          # Explicitly OFF — the contribution calendar is handled separately
-          # by the 3D-contrib workflow, and these throw "Unexpected error"
-          # or render empty/all-zero for a new account
+          # Off — calendar is handled separately below, and these throw
+          # "Unexpected error" or render empty for a new account
           plugin_achievements: no
           plugin_habits: no
           plugin_calendar: no
@@ -36,3 +38,19 @@ jobs:
 
           config_timezone: Asia/Kolkata
           config_display: large
+
+      # --- 3D isometric contribution calendar ---
+      - name: Generate 3D contribution calendar
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      # --- Commit both outputs together ---
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -A
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update profile metrics"
+          git push
