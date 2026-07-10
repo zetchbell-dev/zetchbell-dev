@@ -46,7 +46,7 @@ Completed a four-week internship at CodSoft, shipping three independently deploy
 <tr>
 <td width="50%" valign="top">
 
-**EMOTE** — Emotional State Engine & Animated UI System &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+**EMOTE** — Emotional State Engine & Animated UI System &nbsp;&nbsp;
 <img src="assets/icon-link.svg" width="12" alt="" /> <a href="https://emote-zetchbell.vercel.app/"></a> &nbsp;&nbsp; 
 <br/>
 `React` `GSAP` `SVG` `Tailwind` `Vite`
@@ -59,7 +59,7 @@ Models 3 core emotions that combine into 8 composite states with time-based deca
 </td>
 <td width="50%" valign="top">
 
-**K72** — Interactive Agency Experience &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+**K72** — Interactive Agency Experience &nbsp;&nbsp;
 <img src="assets/icon-link.svg" width="12" alt="" /> <a href="https://k72-zetchbell.vercel.app/"></a> &nbsp;&nbsp;
 <br/>
 `React` `GSAP` `ScrollTrigger` `React Router` `Tailwind`
