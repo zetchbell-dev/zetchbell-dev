@@ -45,9 +45,9 @@ jobs:
 
       # --- 3D isometric contribution calendar ---
       - name: Generate 3D contribution calendar
-        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        uses: yoshi389111/github-profile-3d-contrib@latest
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
       # --- Commit both outputs together ---
