@@ -1,78 +1,101 @@
-<h1 align="center">Priyanshu Mohan</h1>
-<h3 align="center">CS Undergrad · Frontend-Focused Full Stack Developer</h3>
+<div align="center">
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=1200&color=7AA2F7&center=true&vCenter=true&width=650&lines=Building+animated%2C+state-driven+UI+with+React+%26+GSAP;Still+early+%E2%80%94+shipping+and+learning+in+public" alt="Typing SVG" />
+<img src="assets/hero.svg" width="100%" alt="" />
+
+<h1>Priyanshu Mohan</h1>
+<h3>Frontend Engineer</h3>
+<p>Building animated, state-driven UI systems with React, GSAP, and Tailwind.</p>
+
+<p>
+<a href="#">Portfolio</a> ·
+<a href="https://linkedin.com/in/priyanshu-mohan">LinkedIn</a> ·
+<a href="https://leetcode.com/u/Priyanshumohan/">LeetCode</a> ·
+<a href="mailto:your@email.com">Email</a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/looking%20for-frontend%20%2F%20full--stack%20internship-7AA2F7?style=flat-square" />
-  <img src="https://img.shields.io/badge/leetcode-173%20solved-1a1b27?style=flat-square" />
-</p>
+<img src="https://img.shields.io/badge/looking%20for-frontend%20%2F%20full--stack%20internship-7AA2F7?style=flat-square&labelColor=0D1117" alt="" />
+<img src="https://img.shields.io/badge/leetcode-173%20solved-7AA2F7?style=flat-square&labelColor=0D1117" alt="" />
 
----
+</div>
+
+<br/>
+
+<table width="100%">
+<tr>
+<td width="58%" valign="top">
 
 ### About
 
-- CS undergrad focused on frontend engineering — animated, state-driven UI systems in React, GSAP, and Tailwind
-- Comfortable across the stack: Node.js, Express, MongoDB/MySQL, REST APIs
-- Completed a 4-week web development internship at CodSoft, shipping 3 independent deployed projects
-- Early in my GitHub history — repos here are real, working builds, not tutorials
+CS undergrad focused on frontend engineering — animated, state-driven UI systems built with React, GSAP, and Tailwind. Comfortable across the stack, from REST APIs in Node and Express to schema design in MongoDB and MySQL.
 
----
+Completed a four-week internship at CodSoft, shipping three independently deployed projects. Currently deepening backend fundamentals — authentication done properly, API design, and system design basics.
+
+**Currently learning:** Backend architecture · API design · Auth done right · System design fundamentals
+
+</td>
+<td width="42%" align="center">
+
+<img src="assets/stack.svg" width="100%" alt="" />
+
+</td>
+</tr>
+</table>
+
+<br/>
 
 ### Featured Projects
 
-**[EMOTE](https://emote-zetchbell.vercel.app/)** — Emotional State Engine & Animated UI System
-`React · GSAP · SVG Animation · Tailwind · Vite`
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+**EMOTE** — Emotional State Engine & Animated UI System
+<br/>
+`React` `GSAP` `SVG` `Tailwind` `Vite`
+
 Models 3 core emotions that combine into 8 composite states with time-based decay and dominance-resolution logic, driving independently animated SVG layers instead of static sentiment switching.
 
-**[K72](https://k72-zetchbell.vercel.app/)** — Interactive Agency Experience
-`React · GSAP · ScrollTrigger · React Router · Tailwind`
+[Live](https://emote-zetchbell.vercel.app/) · [Source](#)
+
+</td>
+<td width="50%" valign="top">
+
+**K72** — Interactive Agency Experience
+<br/>
+`React` `GSAP` `ScrollTrigger` `React Router` `Tailwind`
+
 Rebuilt a cinematic agency site from scratch: custom GSAP page-transition engine synced with React Router, plus ScrollTrigger-powered scroll-reveal animations via two reusable custom hooks.
 
----
+[Live](https://k72-zetchbell.vercel.app/) · [Source](#)
 
-### Stack
+</td>
+</tr>
+</table>
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,python,js,kotlin,html,css&theme=dark" /><br/>
-  <img src="https://skillicons.dev/icons?i=react,tailwind,vite,nodejs,express&theme=dark" /><br/>
-  <img src="https://skillicons.dev/icons?i=mongodb,mysql,git,github,vscode,vercel&theme=dark" />
-</p>
+<br/>
 
----
+### Activity
 
-### GitHub Stats
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+<img src="metrics.svg" width="100%" alt="GitHub metrics" />
+</td>
+<td width="50%" valign="top">
+<img src="profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D contribution calendar" />
+</td>
+</tr>
+</table>
 
-<p align="center">
-  <img src="metrics.svg" alt="GitHub metrics" />
-</p>
+<br/>
 
----
+<div align="center">
 
-### Contribution Calendar
+<a href="#">Portfolio</a> ·
+<a href="https://linkedin.com/in/priyanshu-mohan">LinkedIn</a> ·
+<a href="https://leetcode.com/u/Priyanshumohan/">LeetCode</a> ·
+<a href="mailto:your@email.com">Email</a>
 
-<p align="center">
-  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution calendar" />
-</p>
+<sub>Small repos, real projects — building the track record one commit at a time.</sub>
 
----
-
-### Currently Learning
-
-- Backend architecture & API design
-- Auth (JWT / sessions) done properly
-- Databases beyond CRUD
-- System design fundamentals
-
----
-
-### Elsewhere
-
-<p align="center">
-  <a href="https://linkedin.com/in/priyanshu-mohan"><img src="https://skillicons.dev/icons?i=linkedin" /></a>
-  <a href="https://leetcode.com/u/Priyanshumohan/"><img src="https://skillicons.dev/icons?i=leetcode" /></a>
-</p>
-
-<p align="center"><i>Small repos, real projects — building the track record one commit at a time.</i></p>
+</div>
