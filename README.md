@@ -32,10 +32,13 @@ Completed a four-week internship at CodSoft, shipping three independently deploy
 
 **Currently learning:** Backend architecture · API design · Auth done right · System design fundamentals
 
-</td>
 <td width="42%" align="center">
 
-<img src="assets/stack.svg" width="100%" alt="" />
+<a href="https://skill-sphere-zetchbell.vercel.app">
+<img src="assets/skill-sphere.gif" width="100%" alt="Interactive Skill Sphere" />
+</a>
+
+
 
 </td>
 </tr>
