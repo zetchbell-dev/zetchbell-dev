@@ -6,7 +6,7 @@
 <a href="#"><img src="assets/nav-portfolio.svg" height="15" alt="Portfolio" /></a> &nbsp;&nbsp;
 <a href="https://linkedin.com/in/priyanshu-mohan"><img src="assets/nav-linkedin.svg" height="15" alt="LinkedIn" /></a> &nbsp;&nbsp;
 <a href="https://leetcode.com/u/Priyanshumohan/"><img src="assets/nav-leetcode.svg" height="15" alt="LeetCode" /></a> &nbsp;&nbsp;
-<a href="mailto:your@email.com"><img src="assets/nav-email.svg" height="15" alt="Email" /></a>
+<a href="mailto:priyanshumohan12234@gmail.com"><img src="assets/nav-email.svg" height="15" alt="Email" /></a>
 </sub>
 
 </div>
@@ -39,7 +39,6 @@ Completed a four-week internship at CodSoft, shipping three independently deploy
 
 <br/>
 <br/>
-
 ### Featured Projects
 
 <table width="100%">
@@ -47,7 +46,7 @@ Completed a four-week internship at CodSoft, shipping three independently deploy
 <td width="50%" valign="top">
 
 **EMOTE** — Emotional State Engine & Animated UI System &nbsp;&nbsp;
-<img src="assets/icon-link.svg" width="12" alt="" /> <a href="https://emote-zetchbell.vercel.app/"></a> &nbsp;&nbsp; 
+<a href="https://emote-zetchbell.vercel.app/" target="_blank" rel="noopener noreferrer"><img src="assets/icon-link.svg" width="12" alt="Live Demo" /></a> &nbsp;&nbsp;
 <br/>
 `React` `GSAP` `SVG` `Tailwind` `Vite`
 
@@ -55,19 +54,17 @@ Completed a four-week internship at CodSoft, shipping three independently deploy
 
 Models 3 core emotions that combine into 8 composite states with time-based decay and dominance-resolution logic, driving independently animated SVG layers instead of static sentiment switching.
 
-
 </td>
 <td width="50%" valign="top">
 
 **K72** — Interactive Agency Experience &nbsp;&nbsp;
-<img src="assets/icon-link.svg" width="12" alt="" /> <a href="https://k72-zetchbell.vercel.app/"></a> &nbsp;&nbsp;
+<a href="https://k72-zetchbell.vercel.app/" target="_blank" rel="noopener noreferrer"><img src="assets/icon-link.svg" width="12" alt="Live Demo" /></a> &nbsp;&nbsp;
 <br/>
 `React` `GSAP` `ScrollTrigger` `React Router` `Tailwind`
 
 ---
 
 Rebuilt a cinematic agency site from scratch: custom GSAP page-transition engine synced with React Router, plus ScrollTrigger-powered scroll-reveal animations via two reusable custom hooks.
-
 
 </td>
 </tr>
